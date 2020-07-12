@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-class test01Controller {
+class test02Controller {
 
-    @RequestMapping("/test01")
+    @RequestMapping("/test02")
     @ResponseBody
     public String hello() {
-        return "Hello Test01 !";
+        return "Hello Test02 !";
     }
 }
